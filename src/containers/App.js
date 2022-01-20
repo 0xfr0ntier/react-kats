@@ -2,6 +2,7 @@ import { Component } from "react";
 import CardList from "../components/CardList";
 import SearchBar from "../components/SearchBar";
 import Scroll from "../components/Scroll";
+import ErrorBoundry from "../components/ErrorBoundry";
 import "tachyons";
 
 class App extends Component {
@@ -43,7 +44,11 @@ class App extends Component {
             if (!kitties.length) {
                 return <h2>Loading</h2>;
             }
-            return <CardList data={kitties} />;
+            return (
+                <ErrorBoundry>
+                    <CardList data={kitties} />
+                </ErrorBoundry>
+            );
         };
 
         return (
