@@ -5,14 +5,17 @@ It showcases some kitties' images from [robohash.org](https://robohash.org/).
 
 ## Available Scripts
 
+After cloning the repo, install the packages.
+```sh
+npm install
+```
+
+Runs the app in the development mode.
 ```sh
 npm start
 ```
 
-Runs the app in the development mode.
-
+Builds the app for production to the `build` folder.
 ```sh
 npm run build
 ```
-
-Builds the app for production to the `build` folder.
