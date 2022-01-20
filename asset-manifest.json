@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-kats/static/css/main.bf02bcae.css",
+    "main.js": "/react-kats/static/js/main.6827d06d.js",
+    "static/js/787.c39012cf.chunk.js": "/react-kats/static/js/787.c39012cf.chunk.js",
+    "static/media/bg.jpg": "/react-kats/static/media/bg.87ea6bf07f9bb6457dc9.jpg",
+    "index.html": "/react-kats/index.html",
+    "main.bf02bcae.css.map": "/react-kats/static/css/main.bf02bcae.css.map",
+    "main.6827d06d.js.map": "/react-kats/static/js/main.6827d06d.js.map",
+    "787.c39012cf.chunk.js.map": "/react-kats/static/js/787.c39012cf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf02bcae.css",
+    "static/js/main.6827d06d.js"
+  ]
+}
