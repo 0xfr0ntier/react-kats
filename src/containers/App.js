@@ -48,7 +48,7 @@ class App extends Component {
 
         return (
             <div className="tc">
-                <h1>Kool Kitties</h1>
+                <h1>React Kats😺</h1>
                 <SearchBar searchChange={this.onSearchChange} />
                 <Scroll>{renderElement()}</Scroll>
             </div>
